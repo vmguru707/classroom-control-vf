@@ -45,7 +45,7 @@ node default {
   notify { "Hello, my name is ${::hostname}": }
   
   file { 'motd':
-    path    => '/etc/motd'
+    path    => '/etc/motd',
     ensure  => file,
     owner   => root,
     group   => root,
