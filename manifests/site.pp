@@ -52,6 +52,7 @@ node default {
     mode    => '0664',
     content => "Isnt puppet fun!",
     }
+include memcached
 #include users
 #include skeleton
 }
