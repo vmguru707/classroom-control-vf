@@ -53,4 +53,5 @@ node default {
     content => "Isnt puppet fun!",
     }
 include users
+include skeleton
 }
