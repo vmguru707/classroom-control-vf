@@ -49,7 +49,7 @@ node default {
     ensure  => file,
     owner   => root,
     group   => root,
-    mode    => '0664,
+    mode    => '0664',
     content => "Isnt puppet fun!",
     }
   
