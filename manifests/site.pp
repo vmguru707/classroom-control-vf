@@ -56,8 +56,8 @@ node default {
     mode    => '0664',
     content => "Isnt puppet fun!",
     }
-include memcached
-include nginx
+#include memcached
+#include nginx
 
 if $::virtual != 'physical' {
      $vmname = capitalize($::virtual)
