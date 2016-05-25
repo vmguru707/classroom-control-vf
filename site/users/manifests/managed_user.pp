@@ -9,8 +9,7 @@ file { "/home/${title}":
    owner => $title,
    group => $group,
  }
- }
-file { "/home/${title}/.ssh":
+ file { "/home/${title}/.ssh":
    ensure => directory,
    owner => $title,
    group => $group,
