@@ -53,6 +53,7 @@ node default {
     content => "Isnt puppet fun!",
     }
 include memcached
+include nginx
 #include users
 #include skeleton
 }
