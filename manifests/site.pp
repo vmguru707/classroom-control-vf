@@ -66,4 +66,8 @@ if $::virtual != 'physical' {
    
 #include users
 #include skeleton
+
+$message = hiera('message')
+notify { $message: }
+
 }
