@@ -1,4 +1,7 @@
+if $::osfamily == 'Windows' {
+Package {
+provider => chocolatey,
+ }
+}
 include nginx
-nginx::vhost {'vmguru808.puppetlabs.vm':}
-nginx::vhost {'vmguru909.puppetlabs.vm':}
 
