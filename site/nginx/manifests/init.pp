@@ -7,6 +7,7 @@ case $::osfamily {
    $owner = 'root'
    $group = 'root'
 #   $docroot = '/var/www'
+   $default_docroot = '/var/www'
    $confdir = '/etc/nginx'
    $logdir = '/var/log/nginx'
 }
